@@ -60,15 +60,77 @@ For your first milestone, describe what your project is and how you plan to buil
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+const int trigger = 5;
+const int echo = 4;
+
+
+const int piezo = 11;
+
+
+int distance = 0;
+int distanceHigh = 0;
+
+
+int lengthOfScale = 0;
+
+
+int note = 0;
+
+
+//C Major scale
+int scale[] = {
+  262, 294, 330, 349, 392, 440, 494, 800
+};
+
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+  pinMode(trigger, OUTPUT);
+  pinMode(echo, INPUT);
+
+
+  while (millis() < 5000) {
+    digitalWrite(trigger, HIGH);
+    digitalWrite(trigger, LOW);
+    distance = pulseIn(echo, HIGH);
+
+
+    if (distance > distanceHigh) {
+      distanceHigh = distance;
+    }
+  }
+
+
+  for (byte i = 0; i < (sizeof(scale) / sizeof(scale[0])); i++) {
+    lengthOfScale += 1;
+  }
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
 
+void loop() {
+  digitalWrite(trigger, HIGH);
+  digitalWrite(trigger, LOW);
+
+
+  distance = pulseIn(echo, HIGH);
+
+
+  note = map(distance, 250, distanceHigh, scale[0], scale[lengthOfScale - 1]);
+
+
+  for (byte j = 0; j < (lengthOfScale); j++) {
+
+
+    if (note == scale[j]) {
+      tone(piezo, note);
+      break;
+    }
+    else if (note > scale[j] && note < scale[j + 1]) {
+      note = scale[j];
+      tone(piezo, note);
+      break;
+    }
+  }
+  delay(30);
 }
 ```
 
