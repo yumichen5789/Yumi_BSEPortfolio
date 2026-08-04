@@ -17,7 +17,6 @@ You should comment out all portions of your portfolio that you have not complete
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -31,9 +30,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LtDD3v47ZKs?si=N-fFms3usaVw5iZ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
@@ -53,7 +52,6 @@ In this milestone, I completed the basis of the project. I connected the ultraso
 ![Headstone Image](Screenshot 2026-07-24 145737.png) 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 #define NOTE_B0  31
@@ -267,12 +265,11 @@ void loop() {
 | Jumper wires (generic) | Used in the adruino to connect the piezo buzzer and ultrasonic sensor to pins | $3.87 | <a href="https://www.newark.com/adafruit/759/wire-gauge-28awg/dp/88W2571?COM=ref_hackster&CMP=Hackster-NA-project-b56de4-Jul-26"> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - <a href="https://github.com/robsoncouto/arduino-songs"> Resource 1 </a>
 - <a href="https://www.hackster.io/pollux-labs/arduino-theremin-with-a-minor-pentatonic-b56de4"> Resource 2 </a>
-- https://github.com/Cvolton/arduinoPlayDespacito/blob/master/Despacito/despacito.ino
-- https://www.youtube.com/watch?v=ZOllXMxLRqc&t=2s
-- https://docs.arduino.cc/language-reference/en/variables/data-types/string/
-- https://projecthub.arduino.cc/arduino_uno_guy/i2c-liquid-crystal-displays-5eb615
-- https://www.youtube.com/watch?v=-jiHul1kQh4
+- <a href="https://github.com/Cvolton/arduinoPlayDespacito/blob/master/Despacito/despacito.ino"> Resource 3 </a>
+- <a href="https://www.youtube.com/watch?v=ZOllXMxLRqc&t=2s"> Resource 4 </a>
+- <a href="https://docs.arduino.cc/language-reference/en/variables/data-types/string/"> Resource 5 </a>
+- <a href="https://projecthub.arduino.cc/arduino_uno_guy/i2c-liquid-crystal-displays-5eb615"> Resource 6 </a>
+- <a href="https://www.youtube.com/watch?v=-jiHul1kQh4"> Resource 7 </a>
 
