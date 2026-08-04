@@ -271,4 +271,8 @@ One of the best parts about Github is that you can view how other people set up 
 - https://github.com/robsoncouto/arduino-songs
 - https://www.hackster.io/pollux-labs/arduino-theremin-with-a-minor-pentatonic-b56de4
 - https://github.com/Cvolton/arduinoPlayDespacito/blob/master/Despacito/despacito.ino
+- https://www.youtube.com/watch?v=ZOllXMxLRqc&t=2s
+- https://docs.arduino.cc/language-reference/en/variables/data-types/string/
+- https://projecthub.arduino.cc/arduino_uno_guy/i2c-liquid-crystal-displays-5eb615
+- https://www.youtube.com/watch?v=-jiHul1kQh4
 
