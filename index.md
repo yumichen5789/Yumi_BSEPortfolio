@@ -35,8 +35,7 @@ In this milestone, I completed the basis of the project. I connected the ultraso
 
 
 # Schematics 
-![Headstone Image](Screenshot 2026-07-24 145705.png)
-![Headstone Image](Screenshot 2026-07-24 145737.png) 
+![Headstone Image](Screenshot 2026-08-04 160041.png)
 
 # Code
 
