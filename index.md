@@ -268,8 +268,8 @@ void loop() {
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- <a https://github.com/robsoncouto/arduino-songs> Resource 1 </a>
-- https://www.hackster.io/pollux-labs/arduino-theremin-with-a-minor-pentatonic-b56de4
+- <a href="https://github.com/robsoncouto/arduino-songs"> Resource 1 </a>
+- <a href="https://www.hackster.io/pollux-labs/arduino-theremin-with-a-minor-pentatonic-b56de4"> Resource 2 </a>
 - https://github.com/Cvolton/arduinoPlayDespacito/blob/master/Despacito/despacito.ino
 - https://www.youtube.com/watch?v=ZOllXMxLRqc&t=2s
 - https://docs.arduino.cc/language-reference/en/variables/data-types/string/
