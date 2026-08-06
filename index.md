@@ -272,6 +272,8 @@ void loop() {
 | Ultrasonic Sensor - HC-SR04 (Generic) | Detects how far a objects is away from the sensor | $5.25 | <a href="https://www.sparkfun.com/ultrasonic-distance-sensor-hc-sr04.html"> Link </a> |
 | Jumper wires (generic) | Used in the adruino to connect the piezo buzzer and ultrasonic sensor to pins | $3.87 | <a href="https://www.newark.com/adafruit/759/wire-gauge-28awg/dp/88W2571?COM=ref_hackster&CMP=Hackster-NA-project-b56de4-Jul-26"> Link </a> |
 
+| LCD with I2c | Display screen  | $9.99 | <a href="https://www.amazon.com/GeeekPi-Character-Backlight-Raspberry-Electrical/dp/B07S7PJYM6/ref=sr_1_6?dib=eyJ2IjoiMSJ9.KbkFF5Phxvs3jUkctMNx9Dr8xY5EDei7_yjyLwsZEjYXDfhd02v9p2_kobaOkmLBdlTgEsoZ2g6cYayCne3H2XjnB79DkxY-HRagr8bIyI2mbBDn7Il1uVSsQnt6pZcs7YAMl5liqsPy69ezUYQfnI9LxwrmHRBGleRlADvxjslY-8ijFTQYVcNi12t-kAhoOJGyAQo_TMsUfmaV5LMiEiZlbcjrU2Ndv_7o5DwEOsg.rpPpEkPVsikq8i9E8NCMjqMjMjoGuoFYVvjgEZNhhTE&dib_tag=se&keywords=i2c+lcd+display&qid=1786042135&sr=8-6"> Link </a> |
+
 # Other Resources/Examples
 - <a href="https://github.com/robsoncouto/arduino-songs"> Resource 1 </a>
 - <a href="https://www.hackster.io/pollux-labs/arduino-theremin-with-a-minor-pentatonic-b56de4"> Resource 2 </a>
