@@ -32,7 +32,7 @@ In this milestone, I completed the basis of the project. I connected the ultraso
 ![Headstone Image](Screenshot 2026-08-04 160041.png)
 
 # Code
-```c++
+
 <div style=" height: 350px; overflow-y: auto; overflow-x: hidden; background-color: #1e1e1e; color: white; padding: 15px; border-radius: 8px; "> <pre style=" margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word; font-family: Consolas, monospace; font-size: 14px; line-height: 1.5; "><code>
 
 #include "pitches.h"
@@ -257,7 +257,7 @@ void loop() {
   delay(30);
 }
 </code></pre> </div>
- ```
+
 
 # Bill of Materials
 
