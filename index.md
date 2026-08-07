@@ -33,6 +33,8 @@ In this milestone, I completed the basis of the project. I connected the ultraso
 
 # Code
 ```c++
+<div style=" height: 350px; overflow-y: auto; overflow-x: hidden; background-color: #1e1e1e; color: white; padding: 15px; border-radius: 8px; "> <pre style=" margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word; font-family: Consolas, monospace; font-size: 14px; line-height: 1.5; "><code>
+
 #include "pitches.h"
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27, 16, 2);
@@ -254,6 +256,7 @@ void loop() {
   }
   delay(30);
 }
+</code></pre> </div>
  ```
 
 # Bill of Materials
