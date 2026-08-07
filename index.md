@@ -13,19 +13,37 @@ My project plays different notes based on the distance it detects. When higher d
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TFdw6m09jvU?si=PqJcUx1abOI7aAz5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-In this milestone I added two new songs which are Despacito and the Super Mario Bros theme song. I have also added a I2C LCD display that displays the notes that are being played. A challenge I faced was how to make the lcd screen display notes sequentially and fill up the screen before restarting. When testing the screen out, after the screen filled with notes, new notes kept coming in making the screen unreadable and messy. To fix this issue I added a lcd.clear code to clear the screen after it filled up. To make the new notes display from the start, I added the integer of column and row and set it to zero after lcd.clear. In addition, when trying to make the notes play sequentially I noticed that not all notes are the same length for example C4 and C#8, so to make the distance between every note at least one block, I used the longest note which is 3 blocks and added one. The code for that is column=column+4; so after a note gets displayed, the next note will have 3 blocks to display and one block as the space between it and the next note. Through this program, I learned a lot about errors in code, that projects require a lot of testing, and to use your resources.
+In this milestone I added two new songs which are Despacito and the Super Mario Bros theme song. I have also added a I2C LCD display that displays the notes that are being played. 
+
+A challenge I faced was how to make the lcd screen display notes sequentially and fill up the screen before restarting. When testing the screen out, after the screen filled with notes, new notes kept coming in making the screen unreadable and messy. To fix this issue I added a lcd.clear code to clear the screen after it filled up. To make the new notes display from the start, I added the integer of column and row and set it to zero after lcd.clear. In addition, when trying to make the notes play sequentially I noticed that not all notes are the same length for example C4 and C#8, so to make the distance between every note at least one block, I used the longest note which is 3 blocks and added one. The code for that is column=column+4; so after a note gets displayed, the next note will have 3 blocks to display and one block as the space between it and the next note. 
+
+Through this program, I learned a lot about errors in code, that projects require a lot of testing, and to use your resources.
+
+After BSE, I want to continue learning about Electrical Engineering as this program strengthened my curiosity and passion for this field and I become more certain that this is the field I want to pursue. 
 
 
 # Second Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LtDD3v47ZKs?si=N-fFms3usaVw5iZ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-In this milestone, I added modifications to my project. The modification was making the piezo buzzer play a song when the ultrasonic sensor detects the max distance. I feel like this made my project a lot more entertaining than before when it just played normal notes. So far, the piezo buzzer can play two songs. I found the melody of these songs by looking in other github projects and I picked out the main part of the melody to put in my code. The main issues I encountered in the code was when to use {} and ; and I figured it out by the new codes to old codes to see where the {} and ; placement was. I also learned that order matters because before errors kept occuring saying certain things I already defined weren't define and than I realized I defined it after I used it thats why it didn't say it was defined. To solve it, I switched the order of the two. For my next milestone, I want to make a few more changes before finalizing my project. 
+In this milestone, I added modifications to my project. The modification was making the piezo buzzer play a song when the ultrasonic sensor detects the max distance. 
+
+I feel like this made my project a lot more entertaining than before when it just played normal notes. So far, the piezo buzzer can play two songs. I found the melody of these songs by looking in other github projects and I picked out the main part of the melody to put in my code. 
+
+The main issues I encountered in the code was when to use {} and ; and I figured it out by the new codes to old codes to see where the {} and ; placement was. I also learned that order matters because before errors kept occuring saying certain things I already defined weren't define and than I realized I defined it after I used it thats why it didn't say it was defined. To solve it, I switched the order of the two. 
+
+For my next milestone, I want to make brainstorm and make a few more changes before finalizing my project. 
  
 
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gvu_VZZnCaM?si=l0y226hM3NC3DdzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-In this milestone, I completed the basis of the project. I connected the ultrasonic sensor and buzzer to the arduino and added the code to Arduino IDE. Now the project works. How it works is you place your hand at different distances from the ultrasonic sensor and the buzzer will play different frequencies of sound. The sounds I chose were the notes C,D,E,F,G,A,B from the C major scale and I also added a high frequency of 800hertz inside the code to make the sounds more distinguishable. The first challenge I faced was not building the hardware correctly, after I fixed that I realized the hardware wasn’t connected to the software. Though they may be fundamental steps on a project, as a beginner, these issues have taught me quite a bit in focusing on detail. The next challenge I encountered was in the code. The documentation I followed for this project has their pins set to 9 for their piezo buzzer however mine was smaller in size so it could only reach pin 11. The buzzer didn’t work because in the code the pins were still at pin 9 and after realizing and changing the pin to11, the buzzer worked. My plan for modifications is trying to make the buzzer play a short song.  
+In this milestone, I completed the basis of the project. I connected the ultrasonic sensor and buzzer to the arduino and added the code to Arduino IDE. Now the project works. How it works is you place your hand at different distances from the ultrasonic sensor and the buzzer will play different frequencies of sound. 
+
+The sounds I chose were the notes C,D,E,F,G,A,B from the C major scale and I also added a high frequency of 800hertz inside the code to make the sounds more distinguishable. 
+
+The first challenge I faced was not building the hardware correctly, after I fixed that I realized the hardware wasn’t connected to the software. Though they may be fundamental steps on a project, as a beginner, these issues have taught me quite a bit in focusing on detail. The next challenge I encountered was in the code. The documentation I followed for this project has their pins set to 9 for their piezo buzzer however mine was smaller in size so it could only reach pin 11. The buzzer didn’t work because in the code the pins were still at pin 9 and after realizing and changing the pin to11, the buzzer worked. 
+
+My plan for modifications is trying to make the buzzer play a short song.  
 
 
 # Schematics 
