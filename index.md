@@ -33,7 +33,6 @@ In this milestone, I completed the basis of the project. I connected the ultraso
 
 # Code
 
-```c++
 <div style="
   height: 350px;
   overflow-y: auto;
@@ -52,6 +51,8 @@ In this milestone, I completed the basis of the project. I connected the ultraso
     font-size: 14px;
     line-height: 1.5;
   "><code>
+
+
 #include "pitches.h"
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27, 16, 2);
@@ -273,7 +274,6 @@ void loop() {
   }
   delay(30);
 }
-```
   </code></pre>
 </div>
 
