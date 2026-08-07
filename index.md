@@ -273,9 +273,9 @@ void loop() {
   }
   delay(30);
 }
+```
   </code></pre>
 </div>
-```
 
 # Bill of Materials
 
